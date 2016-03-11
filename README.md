@@ -15,7 +15,7 @@ The package can be installed via Composer by requiring the "clickcoder/slim-blad
 ```json
 {
     "require": {
-        "chelebi45/slim-blade": "dev-master"
+        "chelebi/slim-blade": "dev-master"
     }
 }
 ```
