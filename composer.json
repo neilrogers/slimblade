@@ -1,5 +1,5 @@
 {
-   "name":"clickcoder/slim-blade",
+   "name":"chelebi/slimblade",
    "description":"Blade is a simple, yet powerful templating engine provided for the Slim Framework",
    "keywords":[
       "slim-blade",
@@ -8,7 +8,7 @@
       "slim",
       "slimphp"
    ],
-   "homepage":"http://github.com/clickcoder/slim-blade",
+   "homepage":"http://github.com/chelebi/slimblade",
    "license":"MIT",
    "authors":[
       {
@@ -17,7 +17,7 @@
       }
    ],
    "source":{
-      "url":"git://github.com/clickcoder/slim-blade.git",
+      "url":"git://github.com/chelebi/slimblade.git",
       "type":"git",
       "reference":"master"
    },
