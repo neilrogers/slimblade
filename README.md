@@ -1,7 +1,7 @@
 slimblade
 ==========
 
-clickcoder/slim-blade paketi composer dan yüklenemediği için bu forklayıp composer'a ekledim
+I forked and added composer because Clickcoder/slim-blade package couldn't install from composer.
 
 
 Blade is the default template engine of Laravel. The main advantage of Blade is template inheritance whilst using plain PHP. This package allows you to use Blade within the Slim Framework.
