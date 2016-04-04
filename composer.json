@@ -1,5 +1,5 @@
 {
-   "name":"chelebi/slimblade",
+   "name":"neilrogers/slimblade",
    "description":"Blade is a simple, yet powerful templating engine provided for the Slim Framework",
    "keywords":[
       "slim-blade",
@@ -17,7 +17,7 @@
       }
    ],
    "source":{
-      "url":"git://github.com/chelebi/slimblade.git",
+      "url":"git://github.com/neilrogers/slimblade.git",
       "type":"git",
       "reference":"master"
    },
