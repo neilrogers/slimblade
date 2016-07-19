@@ -8,19 +8,6 @@
       "slim",
       "slimphp"
    ],
-   "homepage":"http://github.com/neilrogers/slimblade",
-   "license":"MIT",
-   "authors":[
-      {
-         "name":"clickcoder",
-         "email":"kevin@kevindarren.com"
-      }
-   ],
-   "source":{
-      "url":"git://github.com/neilrogers/slimblade.git",
-      "type":"git",
-      "reference":"master"
-   },
    "require":{
       "slim/views":"0.1.*",
       "philo/laravel-blade":"dev-master"
