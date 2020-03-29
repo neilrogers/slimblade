@@ -30,8 +30,8 @@ class Blade extends \Slim\View
      */
     public function render($template, $data = null)
     {
-
-        $env = $this->getInstance();
+        $templateDirs = (!empty($this->all()["templateDirs"]) ? $this->all()["templateDirs"] : null);
+        $env = $this->getInstance($templateDirs);
         
         $parser = $env->view();
         $data = array_merge($this->all(), (array) $data);
@@ -51,10 +51,14 @@ class Blade extends \Slim\View
      *
      * @return \Blade_Environment
      */
-    public function getInstance()
+    public function getInstance($templateDirs)
     {
         if (!$this->parserInstance) {
-            $views = $this->getTemplatesDirectory().'/';
+            if ($templateDirs) {
+                $views = $templateDirs;
+            } else {
+                $views = $this->getTemplatesDirectory().'/';
+            }
 			if(isset($this->parserOptions['cache'])) {
 				$cache = $this->parserOptions['cache'];
 			} else {
